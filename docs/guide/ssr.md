@@ -16,7 +16,13 @@ Se tiveres questões, a comunidade é usualmente útil no [canal de #ssr da Disc
 
 ## Projetos de Exemplo {#example-projects}
 
-A Vite oferece suporte embutido para interpretação no lado do servidor (SSR, sigla em Inglês). A zona de testes da Vite contém exemplos de configurações de SSR para Vue 3 e React, as quais podem ser utilizadas como referências para este guia:
+
+::: details
+ A Vite oferece suporte embutido para interpretação no lado do servidor (SSR, sigla em Inglês). A zona de testes da Vite contém exemplos de configurações de SSR para Vue 3 e React, as quais podem ser utilizadas como referências para este guia:
+:::
+
+![](https://images.pexels.com/photos/106118/pexels-photo-106118.jpeg)
+
 
 - [Vue 3](https://github.com/vitejs/vite-plugin-vue/tree/main/playground/ssr-vue)
 - [React](https://github.com/vitejs/vite-plugin-react/tree/main/playground/ssr-react)

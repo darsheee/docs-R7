@@ -12,6 +12,24 @@
   --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
 }
 
+:root {
+  --vp-custom-block-details-border: #646cff;
+  --vp-custom-block-details-text: #454ce1;
+  --vp-custom-block-details-bg: rgba(100, 108, 255, 0.08);
+}
+
+.dark {
+  --vp-custom-block-details-border: #646cff;
+  --vp-custom-block-details-text: #bcc0ff;
+  --vp-custom-block-details-bg: rgba(100, 108, 255, 0.08);
+}
+
+
+
+
+
+
+
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
@@ -76,6 +94,13 @@
   --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
 }
 
+
+
+:root {
+  --vp-custom-block-details-border: var(--vp-c-brand);
+  --vp-custom-block-details-text: var(--vp-c-brand-darker);
+  --vp-custom-block-details-bg: var(--vp-c-brand-dimm);
+}
 /**
  * Component: Algolia
  * -------------------------------------------------------------------------- */

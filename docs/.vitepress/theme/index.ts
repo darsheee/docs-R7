@@ -3,7 +3,7 @@ import Theme from 'vitepress/theme'
 import './styles/vars.css'
 import HomeSponsors from './components/HomeSponsors.vue'
 import AsideSponsors from './components/AsideSponsors.vue'
-import SvgImage from './components/SvgImage.vue'
+import Zooming from 'zooming'
 
 export default {
   ...Theme,
@@ -13,7 +13,13 @@ export default {
       'aside-ads-before': () => h(AsideSponsors)
     })
   },
-  enhanceApp({ app }) {
-    app.component('SvgImage', SvgImage)
-  }
+  // enhanceApp({ app }) {
+
+  //   const zooming = new Zooming()
+  //   zooming.config({
+  //     scaleBase: 0.75,
+  //     bgOpacity: 0,
+  //   })
+  //   app.provide('zoom', zooming)
+  // }
 }

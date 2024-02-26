@@ -14,7 +14,7 @@ Vite (palavra Francesa para "rápido", pronunciado `/vit/`<button style="border:
 
 A Vite é opiniosa e vem com padrões sensíveis fora da caixa, mas também é altamente extensível através de sua [API de Extensão](./api-plugin) e [API de JavaScript](./api-javascript) com suporte a tipagem completa.
 
-Tu podes aprender mais a respeito do fundamento lógico por trás do projeto na secção [Porquê Vite](./why).
+**Tu podes aprender mais a respeito** do fundamento lógico por trás do projeto na secção [Porquê Vite](./why).
 
 ## Suporte de Navegador {#browser-support}
 

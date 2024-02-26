@@ -98,6 +98,10 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
 
+    search: {
+      provider: 'local'
+    },
+
     editLink: {
       pattern: 'https://github.com/nazarepiedady/vite-docs-pt/edit/main/docs/:path',
       text: 'Sugerir mudanças para esta página',
@@ -110,19 +114,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vitejs/vite' }
     ],
 
-    algolia: {
-      appId: '7H67QR5P0A',
-      apiKey: 'deaab78bcdfe96b599497d25acc6460e',
-      indexName: 'vitejs',
-      searchParameters: {
-        facetFilters: ['tags:en']
-      }
-    },
 
-    carbonAds: {
-      code: 'CEBIEK3N',
-      placement: 'vitejsdev'
-    },
 
     footer: {
       message: `Lançada sob a Licença MIT. (${commitRef})`,
