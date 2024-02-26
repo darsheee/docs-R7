@@ -38,10 +38,10 @@
     "vitepress": "^1.0.0-alpha.74"
   },
   "devDependencies": {
-
     "@types/node": "18.16.16",
-
-
+    "medium-zoom": "^1.1.0",
+    "sass": "^1.71.1",
+    "unocss": "^0.58.5",
     "zooming": "^2.1.1"
   }
 }
