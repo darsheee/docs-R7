@@ -1,50 +1,4 @@
-/**
- * Colors
- * -------------------------------------------------------------------------- */
 
-:root {
-  --vp-c-brand: #646cff;
-  --vp-c-brand-light: #747bff;
-  --vp-c-brand-lighter: #9499ff;
-  --vp-c-brand-lightest: #bcc0ff;
-  --vp-c-brand-dark: #535bf2;
-  --vp-c-brand-darker: #454ce1;
-  --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
-}
-
-:root {
-  --vp-custom-block-details-border: #646cff;
-  --vp-custom-block-details-text: #454ce1;
-  --vp-custom-block-details-bg: rgba(100, 108, 255, 0.08);
-}
-
-.dark {
-  --vp-custom-block-details-border: #646cff;
-  --vp-custom-block-details-text: #bcc0ff;
-  --vp-custom-block-details-bg: rgba(100, 108, 255, 0.08);
-}
-
-
-
-
-
-
-
-/**
- * Component: Button
- * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-button-brand-border: var(--vp-c-brand-light);
-  --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand);
-  --vp-button-brand-hover-border: var(--vp-c-brand-light);
-  --vp-button-brand-hover-text: var(--vp-c-white);
-  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
-  --vp-button-brand-active-border: var(--vp-c-brand-light);
-  --vp-button-brand-active-text: var(--vp-c-white);
-  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
-}
 
 /**
  * Component: Home
@@ -54,53 +8,890 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    var(--vp-c-brand) 30%,
+    var(--vp-c-brand-next)
   );
-
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+    var(--vp-c-brand) 30%,
+    var(--vp-c-brand-next)
   );
-  --vp-home-hero-image-filter: blur(40px);
+  --vp-home-hero-image-filter: blur(80px);
 }
 
 @media (min-width: 640px) {
   :root {
-    --vp-home-hero-image-filter: blur(56px);
+    --vp-home-hero-image-filter: blur(120px);
   }
 }
 
 @media (min-width: 960px) {
   :root {
-    --vp-home-hero-image-filter: blur(72px);
+    --vp-home-hero-image-filter: blur(120px);
   }
 }
 
+/* Safari has a very bad performance on gradient and filter */
+.browser-safari,
+.browser-firefox {
+  --vp-home-hero-image-background-image: transparent;
+  --vp-home-hero-image-filter: "";
+}
+
+/**Component: Custom Block--------------------------------------------- */
+
+.custom-block.danger {
+    border-color: var(--vp-custom-block-danger-border);
+    color: var(--vp-custom-block-danger-text);
+    background-color: var(--vp-custom-block-danger-bg);
+     font-size: 1.1rem;
+  border-radius: 0.7em;
+  /* border-color : yellow ; */
+    /* max-width: 100%; */
+  /* box-shadow: 0 0 0 0.1rem; */
+
+line-height: 1.625;
+
+}
+.custom-block.tip {
+    border-color: var(--vp-custom-block-tip-border);
+    color: var(--vp-custom-block-tip-text);
+    background-color: var(--vp-custom-block-tip-bg);
+     font-size: 1.1rem;
+  border-radius: 0.7em;
+  border-color : yellow ;
+    /* max-width: 100%; */
+  box-shadow: 0 0 0 0.1rem;
+
+line-height: 1.625;
+}
+
+.custom-block.warning {
+    border-color: var(--vp-custom-block-warning-border);
+    color: var(--vp-custom-block-warning-text);
+    background-color: var(--vp-custom-block-warning-bg);
+     font-size: 1.1rem;
+  border-radius: 0.7em;
+  /* border-color : yellow ; */
+    /* max-width: 100%; */
+  /* box-shadow: 0 0 0 0.1rem; */
+
+line-height: 1.625;
+}
+
+.info {
+  font-size: 1rem;
+  font-size: 1.1rem;
+  /* border-radius: 0.7em; */
+  /* border-color : yellow ; */
+    /* max-width: 100%; */
+  /* box-shadow: 0 0 0 0.1rem; */
+
+line-height: 1.625;
+  /* max-width: 100%; */
+  /* border: dashed; */
+  /* margin: .5rem; */
+  /* color: black; */
+}
+.info p {
+  font-size: 1.1em;
+}
+.info li {
+  font-size: 1.1em;
+ 
+}
+.details {
+  font-size: clamp(1rem,1.39vw,1rem);;
+  border-radius: 0.5em;
+  line-height: 1.625;
+  font-weight: 500;
+  
+    /* max-width: 100%; */
+  /* box-shadow: 0 0 0 0.1rem; */
+
+  /* background-color: oklch(61.47% 0.129 103.24 / 18.82%); */
+}
+
+.custom-block.details summary {
+  /* color: #800000;  */
+ 
+  line-height: 1.5;
+  text-wrap: pretty; 
+
+}
+
+.details p {
+  font-size: 1em;
+  line-height: 1.625;
+  
+  
+}
+.details li {
+  font-size: 1em;
+  line-height: 1.625;
+  text-wrap: pretty; 
+ 
+ 
+}
+
+
+
+
+/* ## Heading */
+
+.underwater {
+  --c: oklch(66.74% 0.163 247.33) ; /* the color */
+
+  --_p: 93% 83.5% at;
+  --_g1: radial-gradient(var(--_p) bottom, var(--c) 79.5%, #0000 80%) no-repeat;
+  --_g2: radial-gradient(var(--_p) top, #0000 79.5%, var(--c) 80%) no-repeat;
+  background: var(--_g1), var(--_g2), var(--_g1), var(--_g2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: #0000;
+  -webkit-text-stroke: 0.2rem var(--c);
+  animation: s 2s infinite alternate, m 3s infinite linear;
+}
+@keyframes m {
+  0% {
+    background-position: -200% 100%, -100% 100%, 0% 100%, 100% 100%;
+  }
+  100% {
+    background-position: 0% 100%, 100% 100%, 200% 100%, 300% 100%;
+  }
+}
+@keyframes s {
+  0% {
+    background-size: 50.5% 80%;
+  }
+  33% {
+    background-size: 50.5% 70%;
+  }
+  66% {
+    background-size: 50.5% 85%;
+  }
+  100% {
+    background-size: 50.5% 95%;
+  }
+}
+
+
+
+.pink-background {
+  --c: oklch(86.77% 0.07354199863627744 7.08551427339547);
+  background: var(--c);
+  /* a big box-shadow */
+  box-shadow: 0 0 0 100% var(--c);
+  /* clip only the top and bottom part of it */
+  clip-path: inset(0 -100%);
+}
+
+
+
+h2 {
+  border-image: linear-gradient(0deg, hsl(44, 30%, 75%) 5px, #0000 0) fill 0;
+  padding: 3px 0;
+  width: max-content;
+}
+/* h1 {  font-size: 3rem;
+}
+p {
+  font-size: 1.5rem;
+  text-align:justify;
+} */
+
+.left {
+  border-image-outset: 0 0 0 100vw;
+  width: fit-content;
+}
+h3  {
+  --b: 3;
+  --g: repeating-linear-gradient(90deg, oklch(42.09% 0.193 328.36) 0 15px, #0000 0 22px);
+  width: max-content;
+
+}
+h2.full-line.left {
+  --g: repeating-linear-gradient(-90deg, oklch(39.99% 0.164 29.23) 0 15px, #0000 0 22px);
+  width: max-content;
+
+}
+h3 {
+  --b: 9;
+  --g: linear-gradient(0deg, oklch(53.22% 0.185 17.78) 3px, #0000 0 6px, #53777a 0);
+  width: max-content;
+
+}
+
 /**
- * Component: Custom Block
+ * Component:Float An Element To The Bottom Corner 
+ * Component: Back To Top Button
+Component: Put A Number Inside Boxes
+ A Fancy Hover Effect Using Outline * 
+ * Component:Infinite Image Slider* 
+ * Component: Card hovereffect
+ * Component: Full Screen Slanted Background
+ *------------------------------------------------------------------------ */
+
+[class*="box"] {
+  margin: 10px;
+  display:inline-block;
+  text-align:justify;
+  line-height: 1.2em;
+  font-size: 20px;
+  overflow:hidden;
+  position:relative;
+}
+div.box1 {
+  height: calc(17*1.2em);
+  width: 300px;
+  padding: 10px;
+  z-index:0;
+  background:
+     linear-gradient(#c39f76 27.5%,transparent 0% 72.5%,#c39f76 0) left,
+     linear-gradient(#c39f76 27.5%,transparent 0% 72.5%,#c39f76 0) right;
+  background-size:2px 100%;
+  background-repeat:no-repeat;
+  border-top: 2px solid #c39f76;
+  border-bottom: 2px solid #c39f76;
+}
+
+.box1 >div {
+  height:100%;
+}
+
+.box1:before,
+.box1 >div:before {
+  content: '';
+  float: left;
+  height:100%;
+  width: 35%;
+  shape-outside: conic-gradient(from -135deg at 100% 50%,white 0deg 90deg,transparent 90deg);
+}
+
+.box1 >div:before {
+  float: right;
+  shape-outside: conic-gradient(from 45deg at 0% 50%,white 0deg 90deg,transparent 90deg);
+}
+.box1::after,
+.box1 >div::after{
+    content: "";
+    position: absolute;
+    z-index:-1;
+    width: 134px;
+    height: 134px;
+    outline: 2px solid #c39f76;
+    top: calc(28% - 1px);
+    left: 0px;
+    transform-origin: top left;
+    transform: rotate(45deg);
+}
+.box1 >div::after {
+    right: 0px;
+    left:auto;
+    transform-origin: top right;
+    transform: rotate(-45deg);
+}
+div.box2 {
+  height: calc(18*1.2em);
+  width: 400px;
+  background:
+    linear-gradient(#c39f76,#c39f76) left  4px top    0,
+    linear-gradient(#c39f76,#c39f76) right 4px bottom 0;
+  background-repeat:no-repeat;
+  background-size:70% 3px;
+  background-origin:content-box;
+}
+.box2 >div {
+  height:100%;
+  display: inline;
+}
+
+.box2 >div:first-child::before ,
+.box2 >div:last-child::before {
+  content: '';
+  float: left;
+  height:50%;
+  width: 35%;
+}
+
+.box2 >div:first-child::after ,
+.box2 >div:last-child::after {
+  content: '';
+  float: right;
+  height:50%;
+  width: 35%;
+}
+
+.box2 >div:first-child::before {
+  shape-outside:radial-gradient(50% 100% at bottom left,#fff 100%,transparent 0);
+  background:radial-gradient(44% 105% at bottom left,transparent calc(99% - 3px),#c39f76 calc(99% - 2px) 99%,transparent 100%);
+}
+.box2 >div:first-child::after {
+  shape-outside:radial-gradient(50% 100% at bottom left,transparent 100%,#fff 0);
+  background:radial-gradient(59% 105% at bottom left,transparent calc(99% - 3px),#c39f76 calc(99% - 2px) 99%,transparent 100%);
+}
+.box2 >div:last-child::before {
+  shape-outside:radial-gradient(50% 100% at top  right ,transparent 100%,#000 0);
+  background:radial-gradient(59% 105% at top right,transparent calc(99% - 3px),#c39f76 calc(99% - 2px) 99%,transparent 100%);
+}
+.box2 >div:last-child::after {
+  shape-outside:radial-gradient(50% 100% at top  right ,#fff 100%,transparent 0);
+  background:radial-gradient(44% 105% at top right,transparent calc(99% - 3px),#c39f76 calc(99% - 2px) 99%,transparent 100%);
+}
+
+div.box3 {
+  height: calc(18*1.2em);
+  width: 300px;
+}
+.box3 >div {
+  height:100%;
+  display: inline;
+}
+
+.box3 >div:first-child::before ,
+.box3 >div:last-child::before {
+  content: '';
+  float: left;
+  width: 50%;
+}
+
+.box3 >div:first-child::after ,
+.box3 >div:last-child::after {
+  content: '';
+  float: right;
+  width: 50%;
+}
+
+.box3 >div:first-child::before {
+   shape-outside: linear-gradient(to bottom right,#fff 52%,transparent 0);
+    height: 60%;
+    background: linear-gradient(to bottom right,transparent 49.8%,#c39f76 50% calc(50% + 2px),transparent calc(50% + 3px)) top right/90% 90.5% no-repeat;
+}
+.box3 >div:first-child::after {
+  shape-outside:linear-gradient(to bottom left,#fff 52%,transparent 0);
+  height:60%;
+    background:linear-gradient(to bottom left,transparent 49.8%,#c39f76 50% calc(50% + 2px),transparent calc(50% + 3px)) top left/90% 90.5% no-repeat;
+}
+.box3 >div:last-child::before {
+  shape-outside:radial-gradient(98% 100% at top  right ,transparent 100%,#000 0);
+  height:40%;
+}
+.box3 >div:last-child::after {
+  shape-outside:radial-gradient(98% 100% at top  left ,transparent 100%,#fff 0);
+  height:40%;
+}
+.box3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 270px;
+    border-radius: 50%;
+    border: 3px solid #c39f76;
+    bottom: 0px;
+    right: 0px;
+    -webkit-mask: linear-gradient(#fff,#fff) bottom/100% 72% no-repeat;
+            mask: linear-gradient(#fff,#fff) bottom/100% 72% no-repeat;
+}
+
+
+div.box4 {
+  height: calc(18*1.2em);
+  width: 300px;
+  border-bottom:2px solid #c39f76;
+  padding-top:8px;
+}
+.box4 >div {
+  height:100%;
+  display: inline;
+}
+
+.box4 >div:first-child::before ,
+.box4 >div:last-child::before {
+  content: '';
+  float: left;
+  width: 50%;
+}
+
+.box4 >div:first-child::after ,
+.box4 >div:last-child::after {
+  content: '';
+  float: right;
+  width: 50%;
+}
+
+.box4 >div:first-child::before {
+    shape-outside: conic-gradient(from 45deg at 0 60%,transparent 0 90deg,#fff 0);
+    height: 55%;
+}
+.box4 >div:first-child::after {
+  shape-outside: conic-gradient(from -45deg at 100% 60%,#fff 0 270deg,transparent 0);
+  height: 55%;
+}
+.box4 >div:last-child::before {
+  shape-outside: radial-gradient(72% 98% at top  left ,#ffff 100%,transparent 0);
+  height: 45%;
+  background:radial-gradient(68% 104% at top  left ,transparent calc(99% - 3px),#c39f76 calc(99% - 2px) 99%,transparent 100%) bottom /99% 98% no-repeat;
+}
+.box4 >div:last-child::after {
+  shape-outside:radial-gradient(72% 98% at top  right ,#ffff 100%,transparent 0);
+  height:45%;
+  background:radial-gradient(68% 104% at top  right ,transparent calc(99% - 3px),#c39f76 calc(99% - 2px) 99%,transparent 100%) bottom /99% 98% no-repeat;
+}
+.box4:before {
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border: 2px solid #c39f76;
+    border-image: linear-gradient(135deg,#c39f76 83%,transparent 0) 2;
+    transform-origin: top left;
+    transform: rotate(45deg);
+    left: 150px;
+    top: 0;
+}
+
+div.box5 {
+  height: calc(18*1.2em);
+  width: 300px;
+  border-bottom:2px solid #c39f76;
+}
+.box5 >div {
+  height:100%;
+  display: inline;
+}
+
+.box5 >div:first-child::before ,
+.box5 >div:last-child::before {
+  content: '';
+  float: left;
+  width: 50%;
+}
+
+.box5 >div:first-child::after ,
+.box5 >div:last-child::after {
+  content: '';
+  float: right;
+  width: 50%;
+}
+
+.box5 >div:first-child::before {
+    shape-outside: radial-gradient(circle at 100% 55%,transparent 65%,#000 0);
+    height: 55%;
+}
+.box5 >div:first-child::after {
+  shape-outside: radial-gradient(circle at 0% 55%,transparent 65%,#000 0);
+  height: 55%;
+}
+.box5 >div:last-child::before {
+  shape-outside: linear-gradient(to bottom right,#000 50%,transparent 0);
+  height: 45%;
+  width:27%;
+  background:linear-gradient(to bottom right,transparent calc(50% - 2px),#c39f76 calc(50% - 1px) 50%,transparent 50.5%) top left/95% 103% no-repeat;
+}
+.box5 >div:last-child::after {
+  shape-outside: linear-gradient(to bottom left,#000 50%,transparent 0);
+  height:45%;
+  width:27%;
+  background:linear-gradient(to bottom left,transparent calc(50% - 2px),#c39f76 calc(50% - 1px) 50%,transparent 50.5%) top right/95% 103% no-repeat;
+}
+.box5:before {
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    border: 2px solid #c39f76;
+    border-radius: 50%;
+    transform-origin: top left;
+    transform: rotate(45deg);
+    left: 150px;
+    top: -55px;
+    -webkit-mask: linear-gradient(135deg,#000 79%,transparent 0);
+            mask: linear-gradient(135deg,#000 79%,transparent 0);
+}
+ 
+
+
+
+
+.slant {
+  --a: 3deg; /* control the angle (yes it should be small) */
+  --c: pink;
+  border-image: conic-gradient(var(--c) 0 0) fill 0 9999px;;
+  clip-path: polygon(
+    -9999px calc(tan(var(--a)) * 9999px),
+    9999px calc(tan(var(--a)) * -9999px),
+    calc(100% + 9999px) calc(100% - tan(var(--a)) * 9999px),
+    calc(100% - 9999px) calc(100% + tan(var(--a)) * 9999px)
+  );
+  
+}
+.slant.alt {
+  --a: 3deg;
+  --c: lightblue;
+  clip-path: polygon(
+    -9999px calc(100% - tan(var(--a)) * 9999px),
+    9999px calc(100% + tan(var(--a)) * 9999px),
+    calc(100% + 9999px) calc(tan(var(--a)) * 9999px),
+    calc(100% - 9999px) calc(tan(var(--a)) * -9999px)
+  );
+}
+.slant.yellow {
+  --c: oklch(96.8% 0.21100590772552355 109.76923207652125);
+  clip-path: polygon(
+    -9999px calc(100% - tan(var(--a)) * 9999px),
+    9999px calc(100% + tan(var(--a)) * 9999px),
+    calc(100% + 9999px) calc(tan(var(--a)) * 9999px),
+    calc(100% - 9999px) calc(tan(var(--a)) * -9999px)
+  );
+}
+
+/* the below is a fix specific to my case to avoid the overlap with the title
+  you may need to consider something else in your real case but sill using z-index
+*/
+.slant {
+  position: relative;
+  z-index: -1;
+}
+
+/**
+ * Component: Riddle Challanges 1
+  * Component: Neon Button
+  * Component: Zoom with over
+  * Component: Hover Effect pure
+ * Component: Mosaic Pattern* -------------------------------------------------------------------------- */
+
+
+
+.highlight {
+  background:
+    linear-gradient(yellow 0 0) 0 0/var(--p,0%) 100% no-repeat
+    #ccc;
+  transition: .5s;
+  cursor: pointer;
+}
+.highlight:hover {
+  --p: 100%;
+}
+ /**
+ * Component: 
+ *---------------------------------------------------------------------- */
+ .d-1 {
+  --c: #1095c1; /* the color */
+  --b: .1em;    /* border length*/
+  --d: 20px;    /* the cube depth */
+  
+  --_s: calc(var(--d) + var(--b));
+  color: var(--c);
+  border: solid #0000;
+  border-width: var(--b) var(--b) var(--_s) var(--_s);
+  background:
+    conic-gradient(at left var(--d)  bottom var(--d),
+      #0000 90deg, rgb(255 255 255 /0.3) 0 225deg,rgb(255 255 255 /0.6) 0) border-box,
+    conic-gradient(at left var(--_s) bottom var(--_s),
+      #0000 90deg,var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b))  border-box;
+  transform: translate(calc(var(--d)/-1),var(--d));
+  clip-path: 
+    polygon(
+     var(--d) 0%, 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)),
+     100% calc(100% - var(--d)),
+     var(--d) calc(100% - var(--d))
+    );
+  transition: 0.5s;
+}
+.d-1:hover {
+  transform: translate(0,0);
+  clip-path: 
+    polygon(
+     0% var(--d), 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)), 
+     calc(100% - var(--d)) 100%, 
+     0% 100%
+   );
+}
+
+ /**
+ * Component: Timeline without media query
  * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-custom-block-tip-border: var(--vp-c-brand);
-  --vp-custom-block-tip-text: var(--vp-c-brand-darker);
-  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+ 
+ /**
+ * Component: A Ribbon Title To The Edge Of The Screen
+ *-------------------------------------------------------------------------- */
+h0 {
+  --c: oklch(90.49% 0.089 164.15) ;
+  border-image: 
+     conic-gradient(from 45deg at calc(100% - 1lh),#0000 25%,var(--c) 0) 
+     fill 0 0 0 0 100vw;
+  padding-right: 1.3lh;
+  line-height: 1.5em; /* control the height */ 
+  width: fit-content; /* you probably don't need this if your element is already shrink-to-fit*/
 }
 
-.dark {
-  --vp-custom-block-tip-border: var(--vp-c-brand);
-  --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
-  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+@supports not (padding: 1lh) { /* in case the lh unit is not available fallback to em */
+h0 {
+    border-image: 
+       conic-gradient(from 45deg at calc(100% - 1.5em) 50%,#0000 25%,var(--c) 0) 
+       fill 0 0 0 0 100vw;
+    padding-right: 2em; 
+  }
 }
 
 
-
-:root {
-  --vp-custom-block-details-border: var(--vp-c-brand);
-  --vp-custom-block-details-text: var(--vp-c-brand-darker);
-  --vp-custom-block-details-bg: var(--vp-c-brand-dimm);
+ /**
+ * Component: A CSS-Only Ribbon* -------------------------------------------------------------------------- */
+.ribbon2 {
+  --s: 70px; /* the ribbon size */
+  --d: 20px; /* the depth */
+  --c: 20px; /* the cutout part */
+  /* update one variable a time and you will understand what it does */
+  
+  padding: 0 calc(var(--s) + var(--d)) var(--d);
+  background:
+    conic-gradient(at left  var(--s) bottom var(--d),
+     #0000 25%,#0008 0 37.5%,#0004 0) 0   /50% no-repeat,
+    conic-gradient(at right var(--s) bottom var(--d),
+     #0004 62.5%,#0008 0 75%,#0000 0) 100%/50% no-repeat;
+  clip-path: polygon(0 var(--d), var(--s) var(--d),var(--s) 0,calc(100% - var(--s)) 0,calc(100% - var(--s)) var(--d),100% var(--d),calc(100% - var(--c)) calc(50% + var(--d)/2),100% 100%,calc(100% - var(--s) - var(--d)) 100%,calc(100% - var(--s) - var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) 100%,0 100%,var(--c) calc(50% + var(--d)/2));
+  background-color: #CC333F; /* the main color */
+  /* width: fit-content; you may need to use this in your code if the element is full width */
 }
+
+ /**
+ * Component: A Fancy Title Divider I
+
+ * -------------------------------------------------------------------------- */
+.fancy {
+  --b: 6px;   /* control the border thickness */
+  --w: 80px;  /* control the width of the line*/
+  --g: 15px;  /* control the gap */
+  --c: oklch(38.39% 0.083 240.66);
+ 
+  border: 1px solid;
+  background: 
+    conic-gradient(from   45deg at left ,var(--c) 25%,#0000 0) 0,
+    conic-gradient(from -135deg at right,var(--c) 25%,#0000 0) 100%;
+  background-size: 51% 100%;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  border-image: 
+     linear-gradient(
+       #0000      calc(50% - var(--b)/2),
+       var(--c) 0 calc(50% + var(--b)/2),
+       #0000    0) 
+    1/0 var(--w)/calc(var(--w) + var(--g));
+}
+
+ /**
+ * Component:A Fancy Title Divider II* -------------------------------------------------------------------------- */
+ h4 {
+  --b: 5px;   /* control the border thickness */
+  --w: 50vw; /* control the width of the line*/
+ --h: 2em; /* control the height of the element */
+ --c:   #f0e5cf; 
+ --b: 0.01px;
+
+width: max-content;
+ padding: 0 calc(2*var(--h)/3);
+ line-height: var(--h);
+ clip-path: 
+   polygon(
+    calc(var(--h)/2) 0,100vw 0,
+    100vw var(--b),100%  var(--b),
+    calc(100% - var(--h)/2) 100%,-100vw 100%,
+   -100vw calc(100% - var(--b)),0 calc(100% - var(--b))
+   );
+ border-image: var(--_g,linear-gradient(var(--c) 0 0)) fill 0//0 var(--w);
+}
+
+.dash {
+  background: var(--c);
+  --_g: repeating-linear-gradient(90deg,var(--c) 0 10px,#0000 0 15px);
+}
+
+
+ /** * Component:Slide-Show  * ---------------------------- */
+ .slide-show  {
+  --d: 25s; /* duration */
+  
+  display: grid;
+  overflow: hidden;
+  /* -webkit-mask: linear-gradient(90deg,#0000,#000 10% 90%,#0000); */
+}
+.slide-show > img {
+  grid-area: 1/1;
+  height: 300px;
+  aspect-ratio: 1.5;
+  object-fit: cover;
+  animation: r var(--d) linear infinite;
+}
+
+.slide-show > img:nth-child(2) {animation-delay: calc(1*var(--d)/4)}
+.slide-show > img:nth-child(3) {animation-delay: calc(2*var(--d)/4)}
+.slide-show > img:nth-child(4) {animation-delay: calc(3*var(--d)/4)}
+
+@keyframes r {
+  75%    {transform: translate(-300%)}
+  75.01% {transform: translate( 100%)}
+}
+
+ /* Component: ------Figurecaption---------------- */
+ figure {
+  padding: 1rem;
+  margin: 0.2rem;
+  position: relative;
+  color: hsl(0, 100%, 25%);
+    
+}
+figure:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(currentColor 0 0) 0 -6px no-repeat;
+  clip-path: polygon(0 0,calc(100% - 80px) 0,100% 80px,100% 100%,0 100%,0 0,5px  5px ,5px calc(100% - 5px),calc(100% - 5px) calc(100% - 5px),calc(100% - 5px) calc(80px + 2.07px),calc(100% - 80px - 2.07px) 5px,5px 5px);
+}
+figure img {
+  width: 450px;
+  filter: grayscale(0.1);
+  -webkit-mask: linear-gradient(-135deg,#0000 50px,#000 0);
+}
+figure figcaption {
+  position: absolute;
+  display: flex;
+  gap: 0.2rem;
+  inset: auto 0 0;
+  translate: 0 calc(50% - 5px);
+ 
+  font-size: 1rem;
+  font-weight: bold;
+}
+figure figcaption:before,
+figure figcaption:after {
+  content:"";
+  height: 5px;
+  background: currentColor;
+  width: 2rem;
+  align-self: center;
+}
+figure figcaption:after {
+  flex: 1; 
+}
+
+/* title  */
+
+img{
+  position: relative
+}
+
+img.title  {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: max-content;
+  padding: 30px;
+  background: rgba(255,255,255,.8);
+}
+
+img:hover title {
+  display: block
+}
+
+
+.image {
+	position: relative;
+	width: 400px;
+}
+
+.image__img {
+	display: block;
+	width: 100%;
+}
+
+.image__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+	backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+	background: #009578;
+}
+
+.image__overlay>* {
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+	opacity: 1;
+}
+
+.image__overlay:hover>* {
+	transform: translateY(0);
+}
+
+.image__title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.image__description {
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+  /* Component: ---tIMELINE----------- */
+  .timeline-dot::after {
+    position: absolute;
+    left: 7px;
+    top: 19px;
+    content: "";
+    width: 2px;
+    height: calc(100% - 18px);
+    background-color:  #ed1f1f !important;
+    
+}
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+ /* Component: ---------------------- */
+
+ 
+
+
+
+
+
+
+
 /**
  * Component: Algolia
  * -------------------------------------------------------------------------- */
@@ -109,33 +900,214 @@
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
 
-/**
- * VitePress: Custom fix
- * -------------------------------------------------------------------------- */
+/* My Settings #80cbc4 */
 
-/*
-  Use lighter colors for links in dark mode for a11y.
-  Also specify some classes twice to have higher specificity
-  over scoped class data attribute.
-*/
-.dark .vp-doc a,
-.dark .vp-doc a > code,
-.dark .VPNavBarMenuLink.VPNavBarMenuLink:hover,
-.dark .VPNavBarMenuLink.VPNavBarMenuLink.active,
-.dark .link.link:hover,
-.dark .link.link.active,
-.dark .edit-link-button.edit-link-button,
-.dark .pager-link .title {
-  color: var(--vp-c-brand-lighter);
+/* Sidebar text  */
+
+
+
+
+:root {
+
+
+  --vp-custom-block-details-bg:oklch(98.15% 0.005 106.48)  ;
 }
 
-.dark .vp-doc a:hover,
-.dark .vp-doc a > code:hover {
-  color: var(--vp-c-brand-lightest);
-  opacity: 1;
+
+
+
+.outline-link {
+  line-height: 28px;
+  color: var(--vp-c-text-2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.5s;
+  font-weight: 500;
 }
 
-/* Transition by color instead of opacity */
-.dark .vp-doc .custom-block a {
+.outline-link.active {
+  color: ;
   transition: color 0.25s;
+  transition-duration: 0.1s;
+  background-color: oklch(61.47% 0.129 103.24 / 18.82%);
+  max-width: fit-content;
+
+  border-left: #afa100;
+  font-weight: 600;
+  border-radius: 0.3em;
+  transition: background-color 0.5s;
+  border-radius: 2em;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
 }
+
+.content-body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  height: calc(var(--vp-nav-height) - 1px);
+  transition: background-color 0.5s;
+  border-radius: 0.8em;
+  padding: 0.5rem 1rem;
+  border: black;
+}
+
+
+
+
+
+
+
+em {
+    font-style: italic;
+    color: darklow ;
+}
+
+
+
+
+ h {
+   --b: 5px;   /* control the border thickness */
+   --w: 50vw; /* control the width of the line*/
+  --h: 2em; /* control the height of the element */
+  --c:   oklch(90.49% 0.089 164.15); 
+  --b: 0.01px;
+ width: max-content;
+  padding: 0 calc(2*var(--h)/3);
+  line-height: var(--h);
+  clip-path: 
+    polygon(
+     calc(var(--h)/2) 0,100vw 0,
+     100vw var(--b),100%  var(--b),
+     calc(100% - var(--h)/2) 100%,-100vw 100%,
+    -100vw calc(100% - var(--b)),0 calc(100% - var(--b))
+    );
+  border-image: var(--_g,linear-gradient(var(--c) 0 0)) fill 0 0 var(--w);
+ 
+}
+
+strong {
+    font-weight: 700;
+    color: #800000; 
+}
+
+hr{
+  color: #800000; 
+}
+.hr data-v-1d1be3ba  {
+font-color: #800000;
+}
+
+  h  {
+     --c:   oklch(87.95% 0.015 61.97) ;
+    border-image: 
+     conic-gradient(from 45deg at calc(100% - 1lh),#0000 25%,var(--c) 0) 
+     fill 0 0 0 0 100vw;
+      width: max-content;
+
+  padding-right: 1.3lh;
+  line-height: 1.5em; /* control the height */ 
+  width: fit-content; /* you probably don't need this if your element is already shrink-to-fit*/
+}
+
+ h3 {
+     --c:   oklch(84.52% 0.13 164.98);
+  
+  border-image: 
+     conic-gradient(from 45deg at calc(100% - 1lh),#0000 25%,var(--c) 0) 
+     fill 0 0 0 0 100vw;
+  padding-right: 1.3lh;
+  line-height: 1.5em; /* control the height */ 
+  width: fit-content; /* you probably don't need this if your element is already shrink-to-fit*/
+}
+
+@supports not (padding: 1lh) { /* in case the lh unit is not available fallback to em */
+  .ribbon {
+    border-image: 
+       conic-gradient(from 45deg at calc(100% - 1.5em) 50%,#0000 25%,var(--c) 0) 
+       fill 0 0 0 0 100vw;
+    padding-right: 2em; 
+  }
+  }
+
+bold {
+  background: var(--c);
+  --_g: repeating-linear-gradient(90deg,var(--c) 0 10px,#0000 0 15px);
+    
+
+  }
+
+
+  h { 
+   --g: #0000 .1em,  oklch(90.49% 0.089 164.15) calc(.5em + 20px);
+   background: 
+     linear-gradient(115deg,var(--g)) left,
+          linear-gradient(-65deg,var(--g)) right;
+   background-size:51% 100%; /* use 51% instead of 50% to avoid gaps */
+   background-repeat:no-repeat;
+   width: max-content;
+
+   }
+
+.box {
+  display:inline-block;
+  font-weight:bold;
+  
+  font-size:45px;
+}
+.box span {
+   line-height: 1.3em;
+   padding: 0.05em 0.6em;
+   -webkit-box-decoration-break: clone;
+   box-decoration-break: clone;
+}
+.one span {
+   color: #fff;
+   --g: #0000 .5em,#f03355 calc(.5em + 1px);
+   background: 
+     linear-gradient(115deg,var(--g)) left,
+     linear-gradient(-65deg,var(--g)) right;
+   background-size:51% 100%; /* use 51% instead of 50% to avoid gaps */
+   background-repeat:no-repeat;
+}
+.two span {
+  color: #f03355;
+  /* I consider +/-1px to avoid jagged edges */
+  --g1:#0000 .5em,#f03355 calc(.5em + 1px) calc(.5em + 3px),#0000 calc(.5em + 4px);
+  --g2:#0000 calc(.5em + 3px),#f03355 0;
+  background: 
+    linear-gradient(115deg,var(--g1)) left,
+    linear-gradient(115deg,var(--g2)) top left,
+    linear-gradient(-65deg,var(--g1)) right,
+    linear-gradient(-65deg,var(--g2)) bottom right;
+  background-size:50% 100%,calc(100% - 3px) 3px;
+  background-repeat:no-repeat;
+}
+.three span {
+  color: #fff;
+  --g:#0000 0 25%,#25b09b 0 50%;
+  background: 
+    repeating-conic-gradient(from -45deg at left ,var(--g)) 0    0,
+    repeating-conic-gradient(from -45deg at right,var(--g)) 100% 0;
+  background-size:51% var(--s,100%);
+  background-repeat:repeat-y;
+}
+
+.outline-title[data-v-87cddf99] {
+font-weight: 800;
+}
+
+
+.vp-doc td {
+    font-size: 18px;
+}
+
+.custom-block {
+    border:  transparent;
+    /* border-radius: 8px; */
+    line-height: 24px;
+    /* font-size: var(--vp-custom-block-font-size); */
+    color: var(--vp-c-text-2);
+}
+

@@ -5,6 +5,9 @@ import HomeSponsors from './components/HomeSponsors.vue'
 import AsideSponsors from './components/AsideSponsors.vue'
 import ZoomImg from './components/ZoomImg.vue'
 
+import './styles/index.scss'
+
+
 export default {
   ...Theme,
   Layout() {

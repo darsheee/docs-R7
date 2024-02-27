@@ -9,7 +9,7 @@
   "scripts": {
     "d": "vitepress dev docs",
     "build": "vitepress build docs",
-    "s": "vitepress serve docs"
+    "serve": "vitepress serve docs"
   },
   "pnpm": {
     "peerDependencyRules": {

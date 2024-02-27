@@ -1,0 +1,16 @@
+# THE DANES
+The Danes came from Denmark and they were a minor colonial power to set foot in Indian soil. The Danish East India Company was established in 1616 and they set up trading outposts in 1620 at Tranquebar near Tanjore (Tamil Nadu). In 1755, they founded a colony called Fredricknagore near Serampore in Bengal. Occupied twice by the English, the Danish colony failed as a commercial venture. In 1777, the Danish company went bankrupt and Serampore was transferred to the Danish Crown. However, Serampore became a safe haven for missionaries in India and earned immense fame for the cultural and educational activities of the missionaries. In 1845, Denmark ceded Serampore to Britain, thus ending nearly 150 years of Danish presence in Bengal.
+
+# THE FRENCH 
+The French were the last of the European colonial powers to set foot in India. They were also keen on profiting from the Asian trade.
+
+:::details The French Trading Company (1664) 
+In 1664, Colbert formed the Companie des Indes Orientales. The French trading company (under the governorship of Colbert) was granted a license by King Louis IV to trade with India and the East Indies
+:::
+
+####
+:::details French Factories
+####
+ - In 1667, the first French factory was set up at Surat with Francis Caron as its Director General. 1690 Job Charnock He established a factory at Sutanuti which was fortified in 1696 and called Fort William. 1696 — Sutanuti factory was fortified and called Fort William. 1698 — The English Company obtained from Subahdar of Bengal Azim- us-Shan, the zamindari of the villages of Sutanuti, Kalikata and Gobindapur. 1700 — The Bengal factories were placed under Fort William. Soon the villages grew into a city known as Calcutta. 1662 — (Bombay) King Charles-II received Bombay as dowry on marrying a Portuguese princess. In 1668 the King transferred Bombay to the Company on an annual rent of ten ponds. 1717 Farrukhsiyar granted the English Company valuable trading privileges under the Farman of 1717 described as the Magna Carta of the Company. Rise of British Supremacy: A Backgrounder... 1.79 - In 1669, a factory was set up at Masulipatam. - In 1672, Caron was replaced by Francois Martin who received a village as grant from the King of Bijapur Sher Khan Lodhi and founded it as Pondicherry. Pondicherry later emerged as the French capital in India. - In 1674, the French also received a site near Calcutta from the ruler of Bengal where they built the town of Chandernagore (1690-92). - In 1693, the Dutch snatched Pondicherry but it was restored to the French under the Treaty of Reswick. In this way, the French East India Company established its firm base in Chandernagore and Pondicherry. - The French also acquired control over Islands of Mauritius and Reunion in the Indian Ocean. - Between 1697 and 1739, the French further consolidated their position by adding several bases including Mahe, Karaikal, Balasore and Kasimbazar. The real trouble started when the French won control of Tanjore which the British considered vital for their trade security
+
+:::
