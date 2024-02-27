@@ -27,6 +27,9 @@ head:
          alt="Revenue of Central Government"
         >
 
+<img  style="max-width:600px;  margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" src="/upsc-gs3/indian_economy/illustration/non-debt-cr-700w.avif"
+         alt="Non-Debt Capital Receipts "   >
+
 
 - Govt. receipts that <mark>**do not**</mark> lead to a <mark>claim on the government</mark>.
 - **Progressive income taxation** in which higher the income of individual, higher is the tax rate
@@ -37,7 +40,7 @@ head:
 
 :::
 
-#### 
+####
 :::details **Non-Tax Revenue** Receipts
 
 All money earned by the government from sources other then taxes:
@@ -66,7 +69,7 @@ All those receipts of the government which create liability or reduce financial 
         >
 
 
-#### 
+####
 
 :::details <text style="color:red">Debt</text> - capital receipt
 
@@ -125,7 +128,7 @@ All those receipts of the government which create liability or reduce financial 
     <img  style="max-width:700px;  margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" src="/upsc-gs3/indian_economy/illustration/c-exp-700w.avif"
          alt="Capital Expenditure "
          width="450" height="">
-  
+
 - There are expenditures of the central government which result in <mark> Creation of Assets </mark> or <mark>Reduction in Financial Liabilities. </mark>
 - This includes expenditure on the acquisition of land, building, machinery,equipment, investment in shares, and
 - <mark>Loans and advances given by the central government</mark> to state and union territory governments, PSUs and other
@@ -186,30 +189,30 @@ All those receipts of the government which create liability or reduce financial 
  <img  style="max-width:700px;  margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" src="/upsc-gs3/indian_economy/illustration/general-gov-debt-600w.webp"
          alt="Fiscal Deficit "
          >
-  
+
 
  <img  style="max-width:700px;  margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" src="/upsc-gs3/indian_economy/illustration/maturity-gsec-600w.webp"
          alt="External Liabilites "
          >
-  
+
  <img  style="max-width:700px;  margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" src="/upsc-gs3/indian_economy/illustration/debt-cg-600w.webp"
          alt="Debt "
          >
-  
+
  <img  style="max-width:700px;  margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" src="/upsc-gs3/indian_economy/illustration/cg-health-800w.avif"
          alt="Debt Health "
          >
-  
+
 <img  style="max-width:700px;  margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" src="/upsc-gs3/indian_economy/illustration/cg-debt-800w.avif"
          alt="Debt of Central Government "
          >
-  
+
 
 
 <img  style="max-width:700px;  margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" src="/upsc-gs3/indian_economy/illustration/debt-gdp-600w.webp"
          alt="Debt in Gdp "
          >
-  
+
 
 
 </div>

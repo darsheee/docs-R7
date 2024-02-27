@@ -910,7 +910,7 @@ img:hover title {
 :root {
 
 
-  --vp-custom-block-details-bg: rgb(248, 236, 207) ;
+  /* --vp-custom-block-details-bg: oklch(98.15% 0.005 106.48)  ; */
 }
 
 
