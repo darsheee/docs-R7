@@ -1,26 +1,31 @@
 ---
 layout: home
+sidebar: false
 
-title: Vite
+title: UPSC.STUDY
 titleTemplate: Ferramental de Frontend de Nova Geração
 
 hero:
-  name: Vite
-  text: Ferramental de Frontend de Nova Geração
-  tagline: Prepara-te para um ambiente de programação que acompanhar-te-á no desenvolvimento das tuas aplicações.
+  name: UPSC.STUDY
+  text: let's study together✨
+  tagline: |
+    PWA integrations for Vite and the ecosystem
+    Zero-config and framework-agnostic
+    PWA Plugin for Vite
   image:
-    src: /logo-with-shadow.png
-    alt: Vite
+    light:
+      src: /me-light.png
+      alt: Vite PWA Logo
+    dark:
+      src: /me-dark.png
+      alt: Vite PWA Logo
   actions:
     - theme: brand
-      text: Começar
+      text: Get Started
       link: /guide/
     - theme: alt
-      text: Porquê Vite?
-      link: /guide/why
-    - theme: alt
-      text: Ver na GitHub
-      link: https://github.com/vitejs/vite
+      text: View on GitHub
+      link: https://github.com/vite-pwa/
 
 features:
   - icon: 💡

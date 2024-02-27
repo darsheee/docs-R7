@@ -1,13 +1,14 @@
 import type { DefaultTheme } from 'vitepress'
 import { defineConfig } from 'vitepress'
 
+import Unocss from 'unocss/vite'
 
 const ogUrl = 'https://civilspage.vercel.app//'
 const ogImage = `${ogUrl}og-image.png`
 
 export default (defineConfig({
   lang: 'en-US',
-  title: 'UPSC.Study',
+  title: 'UPSC.STUDY',
   description: 'UPSC',
   head: [
     ['meta', { name: 'theme-color', content: '#ffffff' }],
@@ -46,7 +47,17 @@ export default (defineConfig({
   },
   ignoreDeadLinks: true,
 
+  vite: {
+    logLevel: 'info',
+    plugins: [
+      Unocss(),
+
+    ],
+  },
+
+
   themeConfig: {
+
     search: {
       provider: 'local',
 
@@ -633,9 +644,7 @@ export default (defineConfig({
 
     },
   },
-  vite: {
-    logLevel: 'info',
-  },
 
-  
+
+
 }))
