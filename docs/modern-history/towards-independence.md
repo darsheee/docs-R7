@@ -3,8 +3,8 @@
 # TOWARDS INDEPENDENCE
 
 
-#### 
-:::details The Quit India Movement 
+####
+:::details The Quit India Movement
 
 - Gandhi announced his plans for the "Quit India Movement" in a meeting of the Congress Working Committee at Warda. The Government of India proceeded to arrest all significant Congress leaders throughout India in response.
 
@@ -15,7 +15,7 @@
 - Gandhi began a twenty-one-day fast at his site of detention in Bombay in 1943. The Government of India stated that Gandhi fasted on his own responsibility and at his own risk. Gandhi successfully completed his fast on March 2.
 :::
 
-#### 
+####
 :::details Individual Satyagraha
 -  Individual Satyagraha was launched under Gandhi's leadership, despite differences within the Congress.
 -  The Viceroy proposed an expansion of the Governor-General's Council with Indian representation and a War Advisory Council. The Congress rejected this offer.
@@ -32,21 +32,21 @@
 
 :::
 
-:::details Immediate Context to Quit India Movement 
+:::details Immediate Context to Quit India Movement
 
 :::
 
 
 
 
-#### 
+####
 :::details Muslim League Observes ‘Pakistan Day’
--  The Muslim League in a session of its annual conference at Lahore passed the Pakistan resolution calling for the partition of India and the development of a separate Muslim state. 
+-  The Muslim League in a session of its annual conference at Lahore passed the Pakistan resolution calling for the partition of India and the development of a separate Muslim state.
 
 :::
 
 
-#### 
+####
 ::: details Wavell Plan
 -  British Government approved the merger of 435 princely states into fourteen in western India, enhancing the financial status of several revenue-poor Indian States. This is known as the Attachment Scheme.
 -  Lord Wavell assumed the role of Viceroy of India at New Delhi.
@@ -65,7 +65,7 @@
 
 
 
-#### 
+####
 
 :::details Quit India Movement
 - Gandhi declared Individual Satyagraha in 1941, leading to the arrest of 22,182 Indians under the Defence of India Act. All prisoners were released by December 3 due to pressure from Amery.
@@ -100,8 +100,8 @@
 
 :::
 
-#### 
-:::details  Extra 
+####
+:::details  Extra
 
 
 <!-- <figure>
@@ -169,7 +169,7 @@
 
 
 
-#### 
+####
 :::details Cabinet Mission 1946
 - The British Government sent a Cabinet Mission to India to negotiate self-determination and independence with Indian political leaders.
 - The Cabinet Mission held talks with leaders of the Congress, Muslim League, Sikhs, Scheduled Castes, and others in New Delhi.
@@ -191,8 +191,8 @@
 
 :::
 
-#### 
-<img src="/upsc-modern-india-history/illustration/mountbatten_banner-700w.webp
+####
+<img src="/modern-history/illustration/mountbatten_banner-700w.webp
     " alt="" style="max-width:688px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" />
 
 :::details Mountbatten Plan
@@ -221,11 +221,11 @@
 
 
 
-<img src="/upsc-modern-india-history/illustration/transfer_poweer_banner-700w.webp
+<img src="/modern-history/illustration/transfer_poweer_banner-700w.webp
     " alt="" style="max-width:688px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy" />
 
 
-#### 
+####
 :::details Post- Partition Popular Unrest
 - The Punjab Boundary Force disbanded. This force curbed some of the slaughter and had proven a satisfactory go-between for the two nations.
 - Riots broke out in Calcutta, which were brought under control through Gandhi's use of a fast and the peacekeeping efforts of troops.
@@ -270,7 +270,7 @@
 
 
 .luffy {
-  width:100vmin; 
+  width:100vmin;
   margin:auto auto 0;
   position:relative;
   overflow:hidden;
@@ -285,7 +285,7 @@
     position: absolute;
     width: 25.78%;
     height: 15.2%;
-    background: 
+    background:
       radial-gradient(8% 50% at left,#0000 92%,#967B6B) left,
       radial-gradient(15% 65% at 100% 64%,#0000 92%,#967B6B) right;
     background-size: 50.1% 100%;
@@ -313,7 +313,7 @@
     top: 45%;
     left: 50%;
     transform: translate(-50%);
-    background: 
+    background:
       linear-gradient(to top right,#0000 calc(50% - 1px),#54463d ,#0000 calc(50% + 1px)) 86% 50%/3% 5%,
       linear-gradient(#54463d 0 0) 72% 52.5%/1px 5%,
       radial-gradient(77% 100% at 64% 100%,#a38a7a 98%,#0000) top/100% 24%,
@@ -428,18 +428,18 @@
     transform: translate(-50%);
     -webkit-mask:radial-gradient(111% 101% at 65% 100%,#000 99%,#0000);
     --c: #141214;
-    background: 
-      radial-gradient(106% 94% at 105% 94%,#0000 98%,var(--c) ) 0% 0/33% 73%,      
-      radial-gradient(89% 50% at 100% 50%,var(--c) 98%,#0000) 2% 0/4% 76%,            
-      radial-gradient(104% 104% at 0 100%,#0000 98%,var(--c) ) 60% 0/29% 67%,                  
-      radial-gradient(107% 101% at 0 100%,#0000 98%,var(--c) ) 80% 0/19% 64%,                  
-      radial-gradient(102% 108% at 103% 102%,#0000 98%,var(--c) ) 26% 0/20% 62%,                  
-      radial-gradient(105% 110% at 105% 100%,#0000 98%,var(--c) ) 7.5% 0/33% 76%,            
-      radial-gradient(104% 104% at 0 100%,#0000 98%,var(--c) ) 92% 0/19% 83%,            
-      radial-gradient(66% 50% at 0 50%,var(--c) 98%,#0000 ) 99% 0/6% 60%,            
-      radial-gradient(82% 67% at 0% 99%,#0000 98%,var(--c) ) 101% 0/12% 66%,            
-      radial-gradient(52% 50% at 0 50%,var(--c) 98%,#0000 ) 76% 0/6% 52%,            
-      radial-gradient(52% 50% at 0 50%,var(--c) 98%,#0000 ) 88% 0/5.5% 44%,            
+    background:
+      radial-gradient(106% 94% at 105% 94%,#0000 98%,var(--c) ) 0% 0/33% 73%,
+      radial-gradient(89% 50% at 100% 50%,var(--c) 98%,#0000) 2% 0/4% 76%,
+      radial-gradient(104% 104% at 0 100%,#0000 98%,var(--c) ) 60% 0/29% 67%,
+      radial-gradient(107% 101% at 0 100%,#0000 98%,var(--c) ) 80% 0/19% 64%,
+      radial-gradient(102% 108% at 103% 102%,#0000 98%,var(--c) ) 26% 0/20% 62%,
+      radial-gradient(105% 110% at 105% 100%,#0000 98%,var(--c) ) 7.5% 0/33% 76%,
+      radial-gradient(104% 104% at 0 100%,#0000 98%,var(--c) ) 92% 0/19% 83%,
+      radial-gradient(66% 50% at 0 50%,var(--c) 98%,#0000 ) 99% 0/6% 60%,
+      radial-gradient(82% 67% at 0% 99%,#0000 98%,var(--c) ) 101% 0/12% 66%,
+      radial-gradient(52% 50% at 0 50%,var(--c) 98%,#0000 ) 76% 0/6% 52%,
+      radial-gradient(52% 50% at 0 50%,var(--c) 98%,#0000 ) 88% 0/5.5% 44%,
       radial-gradient(52% 50% at 100% 50%,var(--c) 98%,#0000 ) 16% 0/6.5% 62%;
     background-repeat: no-repeat;
 }
@@ -486,7 +486,7 @@
     top: 45%;
     left: 50%;
     --c: #141214;
-    background: 
+    background:
       conic-gradient(from 20deg at 0 100%,var(--c) 40deg,#0000 0) 6% 0/15% 100%,
       radial-gradient(50% 100% at 50% 0,var(--c) 98%,#0000 )3% 54%/23% 7%,
       radial-gradient(100% 102% at 0 0,#0000 98%,var(--c)) 0 0/16% 50%,
@@ -518,7 +518,7 @@
     top: 4%;
     height: 49%;
     position: absolute;
-    background: 
+    background:
       radial-gradient(100% 100% at 0 47%,#0000 30%,#0004),
       radial-gradient(74% 100% at 50% 100%,#811e2f 98%,#222,#0000) bottom/100% 46%,#967f56;
     left: 50%;
@@ -527,7 +527,7 @@
     border-radius: 50% 50% 0 0/69% 69% 0 0;
     border: 1px solid #222;
 }
-  
+
 </style>
 
 
@@ -535,7 +535,7 @@
 
 
 
-#### 
+####
 ::: details Wavell Plan
 -  British Government approved the merger of 435 princely states into fourteen in western India, enhancing the financial status of several revenue-poor Indian States. This is known as the Attachment Scheme.
 -  Lord Wavell assumed the role of Viceroy of India at New Delhi.

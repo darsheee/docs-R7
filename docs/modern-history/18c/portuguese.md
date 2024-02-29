@@ -28,17 +28,17 @@
 -  In 1502, Vasco da Gama revisited India and set up the following: ■ In 1503, the 1st Portuguese factory was set up at Cochin (Kochi). ■ In 1505, the 2nd factory was set up at Cannanore (or Kannur). Soon, Calicut, Cochin, Cannanore and Quilon (Kollam) became important trading centres of the Portuguese. The Portuguese trading points or factories on land were called Feitorias—these were unfortified trading outposts which also served as bases for naval fleet called armadas. The early spice trade comprised of mainly pepper and cinnamon.
 <div c grid-cols-2 gap-y-5 gap-x-2 >
 <figure >
-    <img src="/upsc-modern-india-history/illustration/vasco-300w.webp
+    <img src="/modern-history/illustration/vasco-300w.webp
     " alt="" style="max-width:260px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy"  />
     <figcaption>Vasco Da Gama </figcaption>
 </figure>
 <figure >
-    <img src="/upsc-modern-india-history/illustration/Goa_Map.webp
+    <img src="/modern-history/illustration/Goa_Map.webp
     " alt="" style="max-width:260px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy"  />
     <figcaption> Map of Goa  </figcaption>
 </figure>
 <figure >
-    <img src="/upsc-modern-india-history/illustration/Fort_Anjediva-300w.webp
+    <img src="/modern-history/illustration/Fort_Anjediva-300w.webp
     " alt="" style="max-width:260px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy"  />
     <figcaption>Fort Anjediva </figcaption>
 </figure>
@@ -57,7 +57,7 @@
 
 <div c grid-cols-2 gap-y-5 gap-x-2 >
 <figure >
-    <img src="/upsc-modern-india-history/illustration/Francisco_de_Almeida-190w.webp"   alt="" style="max-width:230px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy"  />
+    <img src="/modern-history/illustration/Francisco_de_Almeida-190w.webp"   alt="" style="max-width:230px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy"  />
     <figcaption>Francisco_de_Almeida </figcaption>
 </figure>
 </div>
@@ -76,7 +76,7 @@
 
 <div c grid-cols-2 gap-y-5 gap-x-2 >
 <figure >
-    <img src="/upsc-modern-india-history/illustration/afonso-de-albuquerque-250w.webp"   alt="" style="max-width:230px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy"  />
+    <img src="/modern-history/illustration/afonso-de-albuquerque-250w.webp"   alt="" style="max-width:230px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy"  />
     <figcaption>Francisco_de_Almeida </figcaption>
 </figure>
 </div>
@@ -88,11 +88,11 @@
 ---
 <div c grid-cols-2 gap-y-5 gap-x-2  >
 <figure >
-    <img src="/upsc-modern-india-history/illustration/Nuno_da_Cunha-400w.avif"  onerror="this.onerror=null; this.src= '/upsc-modern-india-history/illustration/Nuno_da_Cunha-400w.webp  ' " alt="" style="max-width:250px; margin: 0 auto" async="loading" decoding="async" loading="lazy"  />
+    <img src="/modern-history/illustration/Nuno_da_Cunha-400w.avif"  onerror="this.onerror=null; this.src= '/modern-history/illustration/Nuno_da_Cunha-400w.webp  ' " alt="" style="max-width:250px; margin: 0 auto" async="loading" decoding="async" loading="lazy"  />
     <figcaption>Nuno_da_Cunha </figcaption>
 </figure>
 <figure >
-    <img src="/upsc-modern-india-history/illustration/Nuno_da_Cunha-400w.avif"  onerror="this.onerror=null; this.src= '/upsc-modern-india-history/illustration/Nuno_da_Cunha-400w.webp' " alt="" style="max-width:200px; margin: 0 auto" async="loading" decoding="async" loading="lazy"  />
+    <img src="/modern-history/illustration/Nuno_da_Cunha-400w.avif"  onerror="this.onerror=null; this.src= '/modern-history/illustration/Nuno_da_Cunha-400w.webp' " alt="" style="max-width:200px; margin: 0 auto" async="loading" decoding="async" loading="lazy"  />
     <figcaption>Nuno_da_Cunha </figcaption>
 </figure>
 </div>
@@ -100,12 +100,12 @@
 
 ####
 :::details Map - Portuguese Explorers Route
-<img src="/upsc-modern-india-history/illustration/vasco_trade-routes1-1000w.avif
-    "  onerror="this.onerror=null; this.src= '/upsc-modern-india-history/illustration/vasco_trade-routes1-1000w.webp  ' " alt="Portuguese Explorers Route "  async="loading" decoding="async" loading="lazy"/>
+<img src="/modern-history/illustration/vasco_trade-routes1-1000w.avif
+    "  onerror="this.onerror=null; this.src= '/modern-history/illustration/vasco_trade-routes1-1000w.webp  ' " alt="Portuguese Explorers Route "  async="loading" decoding="async" loading="lazy"/>
  <figcaption>Portuguese Explorers Route [Zoomable Image] </figcaption>
 
 
-<ZoomImg src="/upsc-modern-india-history/illustration/vasco_trade-routes1-1000w.avif"
+<ZoomImg src="/modern-history/illustration/vasco_trade-routes1-1000w.avif"
          alt="Defn of GDP "
          width="700" height="100"/>
 

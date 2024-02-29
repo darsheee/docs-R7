@@ -18,31 +18,31 @@ main.main-intro {
     margin-left: -0.4rem;
     margin-top: -4rem;
   }
-  
+
   p {
     font-size: 1.3rem;
     line-height: 2rem;
   }
-  
+
   h1 {
     font-size: 3.8rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
     font-weight: bolder;
   }
-  
+
   h2 {
     font-size: 3rem;
     margin-top: 1rem;
     margin-bottom: 6rem;
   }
-  
-  h2 > a {
+
+  h2>a {
     opacity: 0.3;
     text-decoration: none;
   }
-  
-  h2 > a:hover {
+
+  h2>a:hover {
     opacity: 0.9;
   }
 
@@ -75,6 +75,7 @@ main.main-intro {
     padding: 10px 12px 5px 12px;
     text-decoration: none;
   }
+
   .action-button:hover {
     background: #e76143;
     color: white;
@@ -83,11 +84,11 @@ main.main-intro {
   .border-red {
     border-left: 8px solid #e76143bb;
   }
-  
+
   .border-blue {
     border-left: 8px solid #183f66bb;
   }
-  
+
   .border-yellow {
     border-left: 8px solid #e5a604bb;
   }
@@ -147,18 +148,19 @@ main.main-intro {
     margin-top: 180px;
   }
 
-  .show-lots-of-code > pre {
+  .show-lots-of-code>pre {
     margin-bottom: 0;
     flex: 1;
   }
 
-  .code-split > div {
+  .code-split>div {
     max-width: 50%;
   }
 
   .lib {
     margin-bottom: 4rem;
   }
+
   .lib-content {
     display: flex;
     word-break: break-all;
@@ -191,7 +193,7 @@ main.main-intro {
     margin-left: 18px;
   }
 
-  .lib > a,
+  .lib>a,
   a.lib {
     display: block;
     background-color: black;
@@ -203,7 +205,7 @@ main.main-intro {
     min-height: 2.5rem;
   }
 
-  .lib > a:hover,
+  .lib>a:hover,
   a.lib:hover {
     background-color: #183f66;
   }
@@ -255,15 +257,18 @@ main.main-intro {
     img {
       max-width: 100%;
     }
+
     .split-50-50,
     .mid-10 {
       flex-direction: column;
     }
+
     .left-margin-1 {
       margin-left: 1rem;
       padding: 0 !important;
       margin-right: 1rem;
     }
+
     .center-small {
       text-align: center;
     }
@@ -272,7 +277,7 @@ main.main-intro {
       padding: 10px;
     }
 
-    .code-split > div {
+    .code-split>div {
       max-width: none;
     }
   }
@@ -286,6 +291,7 @@ main.main-intro {
     width: 100%;
     margin-bottom: 50px;
   }
+
   .mid-8 {
     max-width: 630px;
     width: 100%;
@@ -297,7 +303,7 @@ main.main-intro {
     display: flex;
   }
 
-  .mid-10 > div {
+  .mid-10>div {
     flex: 1;
   }
 

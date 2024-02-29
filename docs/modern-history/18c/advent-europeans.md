@@ -1,13 +1,13 @@
 ---
-title: 
+title:
 
 head:
   - - meta
     - name: description
-      content: 
+      content:
   - - meta
     - name: keywords
-      content:    
+      content:
 ---
 
 
@@ -15,7 +15,7 @@ head:
 
 # Advent of the Europeans in India
 
-<img src="/upsc-modern-india-history/illustration/banner-advent1-700w.webp"  alt="" style="max-width:700px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy"  />
+<img src="/modern-history/illustration/banner-advent1-700w.webp"  alt="" style="max-width:700px; margin: 0 auto; display: grid" async="loading" decoding="async" loading="lazy"  />
 
 
 

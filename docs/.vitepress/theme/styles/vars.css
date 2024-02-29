@@ -6,6 +6,7 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
+
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
     var(--vp-c-brand) 30%,
@@ -909,8 +910,6 @@ img:hover title {
 
 :root {
 
-
-  /* --vp-custom-block-details-bg: oklch(98.15% 0.005 106.48)  ; */
 }
 
 

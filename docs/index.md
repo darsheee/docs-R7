@@ -29,21 +29,21 @@ hero:
 
 features:
   - icon: 💡
-    title: Inicio de Servidor Imediato
-    details: Ficheiro sobre demanda servindo sobre Módulo de ECMAScript, sem necessidade de empacotamento!
+    title: hi
+    details: lets go
   - icon: ⚡️
-    title: Substituição de Módulo Instantânea Rápida como Relâmpago
-    details: Substituição de Módulo Instantânea (HMR, sigla em Inglês) que continua rápida independentemente do tamanho da aplicação.
+    title: hellooo
+    details: rock on
   - icon: 🛠️
-    title: Funcionalidades Ricas
-    details: Suporte fora da caixa para TypeScript, JSX, CSS e muito mais.
+    title: disoc
+    details: desire
   - icon: 📦
-    title: Construção Otimizada
-    details: Construção de Rollup pré-configurada com suporte a várias páginas e mode de biblioteca.
+    title: dardevil
+    details: delhi
   - icon: 🔩
-    title: Extensões Universais
-    details: Interface de extensão de superconjunto de Rollup partilhada entre o desenvolvimento e a construção.
+    title: incemtn
+    details: value in the world of the rock
   - icon: 🔑
-    title: APIs Completamente Tipadas
-    details: APIs programáticas flexíveis com tipagem de TypeScript completa.
+    title: i have to move on in this world
+    details: its to out of the of 
 ---

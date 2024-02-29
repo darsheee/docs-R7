@@ -43,7 +43,7 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
- :root {
+:root {
   --vp-c-brand-1: rgb(184, 132, 1);
   --vp-c-brand-2: #cea233;
   --vp-c-brand-3: #b4974e;
@@ -65,6 +65,7 @@ html:not(.dark) {
   --vp-c-default-3: #f3e5c3;
   --vp-c-default-soft: #f6e6bf;
   --vp-c-divider: #e0d2ac80;
+  --vp-custom-block-details-bg: #f8eccf ;
 }
 
 html.dark {
