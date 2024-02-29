@@ -64,8 +64,9 @@ html:not(.dark) {
   --vp-c-default-2: #f8eccf;
   --vp-c-default-3: #f3e5c3;
   --vp-c-default-soft: #f6e6bf;
-  --vp-c-divider: #e0d2ac80;
-  --vp-custom-block-details-bg: #f8eccf ;
+    --vp-c-divider: #e0d2ac80;
+
+    --vp-custom-block-details-bg: #f6e6bf;
 }
 
 html.dark {
@@ -190,9 +191,9 @@ html.dark {
 }
 
 .main h1 {
-  font-size: 3.8rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-weight: bolder;
   line-height: 1.2em;
 }
@@ -223,3 +224,4 @@ h2>a:hover {
 .vp-doc :not(pre) > code {
   text-wrap: nowrap;
 }
+
